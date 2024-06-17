@@ -1,0 +1,65 @@
+body{
+    background-image:url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 100vh; 
+    
+
+}
+.nav{
+    border: 2px solid black;
+    height: 70px;
+    width: 1260px;
+    background-color:rgba(68, 6, 6, 0.404);
+    display:flex
+
+}
+.logo{
+    height: 70px;
+    border-radius: 50px;
+
+}
+.h{
+    color: white;
+    position: relative;
+    left: 30px;
+
+}
+.links{
+    color: white;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 500px;
+    top: 30px;
+    font-size: 20px;
+}
+.logo2{
+    position: relative;
+    left: 670px;
+    border-radius: 20px;
+   
+}
+.text{
+    border: 2px solid black;
+    height: 400px;
+    margin: 10px;
+    width: 500px;
+    position: relative;
+    left: 350px;
+}
+.head{
+    margin-left: 30px;
+}
+h2{
+    text-align: center;
+}
+button{
+    position: relative;
+    left: 200px;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 100px;
+    background-color: transparent;
+}
